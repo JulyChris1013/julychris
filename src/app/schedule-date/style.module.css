@@ -1,0 +1,13 @@
+.titleDate {
+    color: #bec092;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Sans;
+    text-transform: uppercase;
+}
+
+.subtitleDate {
+    color: rgb(35, 34, 34);
+    font-size: 50px;
+    font-weight: 100
+}
