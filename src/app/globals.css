@@ -103,6 +103,17 @@ a {
   margin-top: 100px;
 }
 
+.title-main-image {
+  font-size: 65px;
+  font-family: sans-serif;
+}
+
+.subtitle-main-image {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
 .title-date {
   color: #bec092;
   font-size: calc(0.3em + 1.5vw);
@@ -143,6 +154,12 @@ a {
     height: 350px;
     margin-top: 100px;
     object-fit: cover;
+  }
+  .title-main-image {
+    font-size: 30px;
+  }
+  .subtitle-main-image{
+    font-size: 12px;
   }
 }
 
