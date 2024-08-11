@@ -1,18 +1,18 @@
 "use client"
 
 
-import Image3 from "@/assets/image-3.jpeg"
-import Image6 from "@/assets/image-6.jpeg"
-import Image7 from "@/assets/image-7.jpeg"
+import Image3 from "@/assets/Image-3.jpeg"
+import Image6 from "@/assets/Image-6.jpeg"
+import Image7 from "@/assets/Image-7.jpeg"
 import Image8 from "@/assets/image-8.jpeg"
-import Image9 from "@/assets/image-9.jpeg"
-import Image10 from "@/assets/image-10.jpeg"
-import Image11 from "@/assets/image-1.jpeg"
-import Image12 from "@/assets/image-12.jpeg"
-import Image13 from "@/assets/image-13.jpeg"
-import Image14 from "@/assets/image-14.jpeg"
-import Image15 from "@/assets/image-15.jpeg"
-import Image16 from "@/assets/image-16.jpeg"
+import Image9 from "@/assets/Image-9.jpeg"
+import Image10 from "@/assets/Image-10.jpeg"
+import Image11 from "@/assets/Image-1.jpeg"
+import Image12 from "@/assets/Image-12.jpeg"
+import Image13 from "@/assets/Image-13.jpeg"
+import Image14 from "@/assets/Image-14.jpeg"
+import Image15 from "@/assets/Image-15.jpeg"
+import Image16 from "@/assets/Image-16.jpeg"
 
 
 
