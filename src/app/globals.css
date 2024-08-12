@@ -131,9 +131,7 @@ a {
 
 .img-album {
   object-fit: cover;
-  width:320px;
-  height: 400px;
-  border-radius: 8px
+  border-radius: 8px;
 }
 
 .container-album {
@@ -143,22 +141,26 @@ a {
 
 @media(max-width: 660px) {
   .img-album {
-    width:180px;
+    width: 180px;
     height: 250px;
     object-fit: cover;
   }
+
   .container-album {
     margin: 10px;
   }
+
   .main-image {
     height: 350px;
     margin-top: 100px;
     object-fit: cover;
   }
+
   .title-main-image {
     font-size: 30px;
   }
-  .subtitle-main-image{
+
+  .subtitle-main-image {
     font-size: 12px;
   }
 }
@@ -238,15 +240,16 @@ a {
   margin: 10px;
 
 }
+
 .titlesub-dress {
-  color:black;
+  color: black;
   font-size: 15px;
   font-weight: 600;
   font-family: Sans;
   text-transform: uppercase;
 }
 
-.container-dress{
+.container-dress {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -255,7 +258,7 @@ a {
 .btn-link {
   margin: 15px auto;
   background-color: #f1eee9;
-  color:black;
+  color: black;
   font-family: sans-serif;
   font-size: 12px;
   border-radius: 35px;
@@ -265,7 +268,8 @@ a {
   justify-content: center;
   align-items: center;
 }
-.container-img{
+
+.container-img {
   background-image: url(fondoregalo-3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -275,6 +279,7 @@ a {
   height: auto;
   padding: 20px 0px;
 }
+
 .container-principal {
   background-image: url(./principal.jpeg);
   background-position: center center;
@@ -285,8 +290,9 @@ a {
   font-size: 30px;
   aspect-ratio: 12/5;
 }
+
 .titlesub-regalo {
-  color:black;
+  color: black;
   font-size: 15px;
   font-weight: 100;
   font-family: Sans;

@@ -14,37 +14,42 @@ import Image14 from "@/assets/Image-14.jpeg"
 import Image15 from "@/assets/Image-15.jpeg"
 import Image16 from "@/assets/Image-16.jpeg"
 
-
-
 import { Divider, List } from "antd";
-import Image from "next/image";
+//import Image from "next/image";
+import { Image } from 'antd';
 
 export default function AlbumPhoto() {
-    const list = [Image3, Image6, Image7, Image11, Image9, Image8,Image10, Image12, Image13, Image14, Image15, Image16,]
+    const list = [Image3, Image6, Image7, Image11, Image9, Image8, Image10, Image12, Image13, Image14, Image15, Image16,]
 
     return (
-        <div className="container-album">
-            <Divider style={{ margin:"10vw 0px" }}/>
-            <p className="title-date">ÁLBUM DE FOTOS</p>
-            <p className="subtitle-date">Momentos únicos</p>
-            <div style={{marginTop: "40px"}}>
-                <List grid={{
-                    gutter: 16,
-                    xs: 2,
-                    sm: 2,
-                    md: 4,
-                    lg: 3,
-                    xl: 4,
-                    xxl: 3,
-                }}
-                    dataSource={list}
-                    renderItem={(photo) => (
-                        <Image src={photo} alt="photo" className="img-album" />
-                    )}>
-                </List>
-            </div>
-
-            <Divider style={{ margin:"10vw 0px" }}/>
-        </div>
+        <>
+            <div className="container-album">
+                <Divider style={{ margin: "10vw 0px" }} />
+                <p className="title-date">ÁLBUM DE FOTOS</p>
+                <p className="subtitle-date">Momentos únicos</p>
+                <Image.PreviewGroup
+                    preview={{
+                        onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
+                    }}
+                >
+                    <List grid={{
+                        gutter: 16,
+                        xs: 2,
+                        sm: 2,
+                        md: 4,
+                        lg: 3,
+                        xl: 4,
+                        xxl: 3,
+                    }}
+                        dataSource={list}
+                        renderItem={(photo) => (
+                            <div style={{marginBottom:"12px"}}>
+                                <Image src={photo.src} alt="photo" className="img-album" height="calc(30vw + 10em)" width="calc(12vw + 9em)"/>
+                            </div>
+                        )}>
+                    </List>
+                </Image.PreviewGroup>
+            </div><Divider style={{ margin: "10vw 0px" }} />
+        </>
     );
 }
